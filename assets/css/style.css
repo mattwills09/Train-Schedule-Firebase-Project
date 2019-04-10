@@ -1,0 +1,25 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-color:lightgray;
+}
+
+.jumbotron {
+    background-image:url(../images/headerimage.jpg);
+    height:220px;
+}
+
+.card-header {
+    background-color:darkblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:yellow;
+    font-size:16pt;
+}
+
+img {
+    width:30px;
+    height:30px;
+    margin-right:5px;
+}
