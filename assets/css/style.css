@@ -9,6 +9,7 @@ body {
 .jumbotron {
     background-image:url(../images/headerimage.jpg);
     height:220px;
+    width:100%;
 }
 
 .card-header {
@@ -22,4 +23,13 @@ img {
     width:30px;
     height:30px;
     margin-right:5px;
+}
+
+.currently {
+    border:2px solid darkblue;
+    padding:8px;
+    margin-bottom:10px;
+    text-align:center;
+    color:darkblue;
+    font-weight:bold;
 }

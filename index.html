@@ -26,6 +26,8 @@
     <h3 class="text-center"></h3>
   </div>
 
+<div class="currently"></div>
+
   <div class="row">
     <div class="col-lg-12">
       <div class="card-header">Current Train Schedule</div>
@@ -46,42 +48,41 @@
     </div>
   </div>
 
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="card card-default">
-          <div class="card-header">Add Train</div>
-            <div class="card-body">
-              <form>
-                <div class="form-group row">
-                  <img src="assets/images/train.png">
-                  <label for="trainName">Train Name: </label>
-                  <input class="form-control" id="trainName" type="text" value="Train Name.." onfocus="this.value=''">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="card card-default">
+        <div class="card-header">Add Train</div>
+          <div class="card-body">
+            <form>
+              <div class="form-group row">
+                <img src="assets/images/train.png">
+                <label for="trainName">Train Name: </label>
+                <input class="form-control" id="trainName" type="text" value="Train Name.." onfocus="this.value=''">
                 </div>
-                <div class="form-group row">
-                  <img src="assets/images/destination.png">
-                  <label for="destination">Destination: </label>
-                  <input class="form-control" id="destination" type="text" value="Destination.." onfocus="this.value=''">
-                </div>
-                <div class="form-group row">
-                  <img src="assets/images/time.png">
-                  <label for="trainTime">First Train Time (HH:mm | Military Time): </label>
-                  <input class="form-control" id="firstTime" type="time">
-                </div>
-                <div class="form-group row">
-                  <img src="assets/images/freq.png">
-                  <label for="frequency">Frequency (mm): </label>
-                  <input class="form-control" id="frequency" type="number" onfocus="this.value=''">
-                </div>
-                  <button class="btn btn-outline-secondary" id="submit" type="submit">Submit</button>
-              </form>
-            </div>
+              <div class="form-group row">
+                <img src="assets/images/destination.png">
+                <label for="destination">Destination: </label>
+                <input class="form-control" id="destination" type="text" value="Destination.." onfocus="this.value=''">
+              </div>
+              <div class="form-group row">
+                <img src="assets/images/time.png">
+                <label for="trainTime">First Train Time (HH:mm | Military Time): </label>
+                <input class="form-control" id="firstTime" type="time">
+              </div>
+              <div class="form-group row">
+                <img src="assets/images/freq.png">
+                <label for="frequency">Frequency (mm): </label>
+                <input class="form-control" id="frequency" type="number" onfocus="this.value=''">
+              </div>
+                <button class="btn btn-outline-secondary" id="submit" type="submit">Submit</button>
+            </form>
           </div>
         </div>
-    </div>
+      </div>
+  </div>
       
 </div>
 
-<!-- Script -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="assets/javascript/app.js"></script>
 

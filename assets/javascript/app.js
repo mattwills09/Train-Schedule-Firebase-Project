@@ -15,6 +15,9 @@ var database = firebase.database();
 
 $(document).ready(function() {
 
+    var currently = moment().format("dddd, MMMM Do, YYYY, h:mm:ss A");
+    $(".currently").append(currently);
+
     database.ref().on("child_added", function(snapshot) {
         var trainName = snapshot.val().trainName;
         var destination = snapshot.val().destination;
@@ -29,10 +32,6 @@ $(document).ready(function() {
         console.log(snapshot.val().firstTime);
         console.log(snapshot.val().minutesTillTrain);
         // console.log(moment(firstTime).format("HH:mm"));
-
-
-    // moment(firstTime).format("HH:mm");
-
 
     // ---------------------------------------------------
 
@@ -51,7 +50,7 @@ $(document).ready(function() {
     var minutesTillTrain = frequency - timeRemainder;
     console.log("Minutes Till Next Train: " + minutesTillTrain);
 
-    var nextTrain = moment().add(minutesTillTrain, "minutes").format("HH:mm");
+    var nextTrain = moment().add(minutesTillTrain, "minutes").format("hh:mm a");
     console.log("Next Train Arrival Time: " + nextTrain);
 
 
