@@ -16,7 +16,7 @@ var database = firebase.database();
 $(document).ready(function() {
 
     var currently = moment().format("dddd, MMMM Do, YYYY, h:mm:ss A");
-    $(".currently").append(currently);
+    $(".currently").append("<<  " + currently + "  >>");
 
     database.ref().on("child_added", function(snapshot) {
         var trainName = snapshot.val().trainName;
