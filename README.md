@@ -1,4 +1,4 @@
-# Train-Time-Activity
+# Train-Schedule-Firebase-Project
 
 For this project we were asked to build an application for train schedules that will be able to be updated in real-time using a Firebase database.  It also needed the ability to add a new train and its destination, the frequency of the train, the next train time, and how many minutes until the next train would arrive.  That would then have to be added to the database and then updated on our page.
 
