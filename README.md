@@ -1,13 +1,13 @@
-# Train-Schedule-Firebase-Project
+# Train Schedule Board Firebase Project
 
-For this project we were asked to build an application for train schedules that will be able to be updated in real-time using a Firebase database.  It also needed the ability to add a new train and its destination, the frequency of the train, the next train time, and how many minutes until the next train would arrive.  That would then have to be added to the database and then updated on the site also.
+For this project we were asked to build an application for a train station schedule board that will be able to be updated in real-time using an external Firebase database.  It has the ability for users to add a new train and its destination, the frequency of the train, the next train arrival time, and also how many minutes until that next train would arrive.  That information is added and saved to the external database and also is updated on the site/board as well.
 ___
 ![train-schedule-1](assets/images/train-schedule-1.jpg)
 ___
 ![train-schedule-2](assets/images/train-schedule-2.jpg)
 ___
 
-Setting up the HTML and css was done by using Bootstrap to layout the title area, table form where the train information is shown from the database, and a form for the admin to add a new train.  This was fairly easy to layout using Bootstrap, and the few other colors and layout aspects were added through a linked CSS page.  Then a linked Javascript and jQuery file was used to configure and initialize the interactivity with the Firebase database, to take the information of the added train and push it to our database, and then update the application in real time.  One aspect that was a little buggy to implement was using Moment JS to calculate the train time and frequency, and then using a formula to calculate the minutes until the next train, as well as the next time that train would arrive.
+Setting up the HTML and css was done by using Bootstrap to layout the title area, the table form for the train information, and a form for the admin to add a new train.  This was fairly easy to layout using Bootstrap, and the few other colors and layout aspects were added through Photoshop and a linked external CSS page.  Then a linked Javascript and jQuery file was used to configure and initialize the interactivity with the Firebase database, to take the information of the added train and push it to our database, and then update the application in real time.  One aspect that was a little buggy to implement was using Moment JS to calculate the train time and frequency, and then using a formula to calculate the minutes until the next train, as well as the next time that train would arrive.
 
 ___
 ![train-schedule-add-train-1](assets/images/train-schedule-add-train-1.jpg)
