@@ -1,6 +1,6 @@
 # Train Schedule Board Firebase Project
 
-For this project we were asked to build an application for a train station schedule board that will be able to be updated in real-time using an external Firebase database.  It has the ability for users to add a new train and its destination, the frequency of the train, the next train arrival time, and also how many minutes until that next train would arrive.  That information is added and saved to the external database and also is updated on the site/board as well.
+For this project we were asked to build a real time application for a train station schedule board that will be able to be updated in real-time using an external Firebase database.  It has the ability for users (or admin) to add a new train and its destination, the frequency of the train, the next train arrival time, and also how many minutes until that next train would arrive.  That information is added and saved to the external database and also is updated on the site/board as well.
 ___
 ![train-schedule-1](assets/images/train-schedule-1.jpg)
 ___
